@@ -22,7 +22,4 @@ while loop != karakter_sayisi:
     sifre += str(random.choice(tümü))
     loop = loop+1
 print("Oluşturulan şifreniz:", sifre)
-with open ("C:\\projeler\\sifre_olusturucu.log", "a", encoding="utf-8") as dosya:
-    dosya.write(uygulama + " : " + sifre + "\n")
-print("\nUyarı! Şifreniz 'C:\projeler\sifre_olusturucu.log' konumuna kaydedildi!\n")
 input("Çıkmak için enter tuşuna basınız...")
